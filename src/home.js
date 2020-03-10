@@ -1,7 +1,10 @@
 import React from 'react';
+import Navbar from './components/navbar';
 
 const Home = (props) => {
     return (
+        <>
+        <Navbar />
         <div className="container">
             <div className="row">
                 <div className="col-md-12 d-flex justify-content-center">
@@ -14,6 +17,7 @@ const Home = (props) => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
